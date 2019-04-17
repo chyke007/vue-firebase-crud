@@ -12,7 +12,7 @@ The project was developed using:
 
 - [Materialize](https://materializecss.com/) - For the UI
 
--[Font-awesome](https://fontawesome.com/) - For the icons
+- [Font-awesome](https://fontawesome.com/) - For the icons
 
 ## Build Setup
 
