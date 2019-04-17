@@ -50,6 +50,14 @@ export default {
       .where("employee_id", "==", to.params.employee_id)
       .get()
       .then(querySnapshot => {
+        querySnapshot.empty === true
+          ? next({
+              path: "/",
+              query: {
+                redirect: to.fullpath
+              }
+            })
+          : "";
         querySnapshot.forEach(doc => {
           next(vm => {
             (vm.employee_id = doc.data().employee_id),

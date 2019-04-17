@@ -1,6 +1,18 @@
-# employeemanager
+# A basic employee web app
 
-> Simple employee app
+## Description  
+ 
+The project is a basic CRUD Employee System that uses VueJs, firebase auth and its firestore. 
+
+## Technology 
+ 
+The project was developed using: 
+- [Firebase](https://firebase.google.com/) - For the authentication and database
+- [VueJs](https://vuejs.org/) - For the main application 
+
+- [Materialize](https://materializecss.com/) - For the UI
+
+-[Font-awesome](https://fontawesome.com/) - For the icons
 
 ## Build Setup
 
@@ -17,5 +29,5 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Preview online
+ [Live](https://chyke007.github.io/vue-firestore-employee/)
